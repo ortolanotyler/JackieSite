@@ -1,0 +1,65 @@
+/* File: PlantSelector.css */
+
+.container {
+    display: grid;
+    place-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    min-height: 100vh;
+  }
+  
+  .fieldset {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 50vh;
+    gap: 1rem;
+    border: none;
+  }
+  
+  .label {
+    cursor: pointer;
+    border-radius: 8px;
+    background-position: center;
+    background-size: auto 125%;
+    transition: all 0.5s ease;
+  }
+  
+  .label:focus-within {
+    outline: 1px solid green;
+    outline-offset: 5px;
+  }
+  
+  .label > input {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  /* Adjusting image sizes based on selection */
+  .label:nth-child(1).selected {
+    grid-column: span 5;
+  }
+  
+  .label:nth-child(2).selected {
+    grid-column: span 3;
+  }
+  
+  .label:nth-child(3).selected {
+    grid-column: span 2;
+  }
+  
+  .label:nth-child(4).selected {
+    grid-column: span 4;
+  }
+  
+  .label:nth-child(5).selected {
+    grid-column: span 5;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .fieldset {
+      grid-template-rows: 30vh;
+    }
+  }
+  

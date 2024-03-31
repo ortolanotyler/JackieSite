@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.items {
+  display: flex;
+  position: relative;
+}
+
+.item {
+  position: relative;
+  margin: 1em;
+  flex: 0 0 calc(33% - 2em);
+  display: inline-block;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 6px; /* Add border-radius */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Add box shadow for depth */
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.item::after {
+  content: '';
+  position: absolute;
+  z-index: -1; /* Ensure the shadow is behind the item */
+  top: 20%;
+  left: 5%;
+  right: 5%; /* Adjust to fit the shadow size */
+  bottom: 20%; /* Adjust to fit the shadow size */
+  background: rgba(0,0,0,0.2); /* Shadow color */
+  filter: blur(20px);
+  transition: opacity 0.3s ease; /* Smooth transition for the shadow */
+  opacity: 0; /* Initial state */
+}
+
+.item:hover::after {
+  opacity: 1; /* Show shadow on hover */
+}
+
+.item:hover {
+  transform: scale(1.01); /* Slightly scale item on hover */
+}
+
+.item__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Fallback color */
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.item-0:hover::before, .item-1:hover::before, .item-2:hover::before {
+  opacity: 0.6;
+  background-repeat: no-repeat;
+  background-size: cover; /* Make sure the background covers the entire element */
+  background-position: center; /* Center the background image */
+}
+
+.item-0:hover::before {
+  background-image: url('../../Images/lattebackground.png');
+}
+
+.item-1:hover::before {
+  background-image: url('../../Images/margotbackground.png');
+}
+
+.item-2:hover::before {
+  background-image: url('../../Images/sophiabackground.png');
+}
+
+.item__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.item:hover .item__overlay {
+  opacity: 1;
+}
+
+.item__link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}

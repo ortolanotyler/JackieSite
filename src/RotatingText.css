@@ -1,0 +1,23 @@
+.rotating-text-container {
+    font-family: 'Arapey, serif';
+    margin-top: '0rem';
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0 1rem; /* Adds padding to the container for start and end spacing */
+  }
+  
+  .rotating-text {
+    display: inline-block;
+    animation: rotate-text 90s linear infinite;
+    letter-spacing: 0.2rem; /* Increases spacing between all characters */
+  }
+  
+  @keyframes rotate-text {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  

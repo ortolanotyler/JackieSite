@@ -1,0 +1,32 @@
+/* WeExcel.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=GFS+Didot&family=Italianno&display=swap');
+
+.container {
+  font-family: 'GFS Didot, serif';
+  margin: 0 auto;
+  background-color: #FDEDEF;
+  color: white;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  color: white;
+  width: 1200px;
+  display: flex;
+  gap: 15px;
+  font-size: 50px;
+}
+
+.span {
+  /* If there were specific styles for span, they would go here */
+}
+
+.sliderValue {
+  display: flex;
+  color: #745B4F;
+  font-weight: 500;
+  transition: 0.5s opacity ease-in-out;
+}

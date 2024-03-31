@@ -1,0 +1,35 @@
+.container {
+  max-width: 900px; /* Limit the maximum width */
+  margin: 20px auto; /* Center the card */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+#card {
+  width: 100%;
+  max-width: 800px; /* Adjusted max-width */
+  height: auto; /* Height should be auto for flexibility */
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.left-div, .right-div {
+  position: relative;
+  width: 50%; /* Split the card into two halves */
+  height: 100%;
+}
+
+.left-div {
+  padding: 20px; /* Add some padding */
+  background-color: white;
+}
+
+.right-div {
+  background-size: cover;
+  background-position: center;
+}
+
+/* Add more styling as needed */

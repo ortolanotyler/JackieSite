@@ -1,0 +1,57 @@
+***********Homepage********************************
+
+- Nav
+- Top Hero 
+- Quote Banner 
+- Explore The Site 
+- Email Subscribe 
+- Meet Jackie 
+- Latest Tutorials 
+- Latest Products 
+- Personalized Makeup Advice From Jackie 
+- Quote Banner 
+- Top Products This Week 
+- Shop My Outfits 
+- Footer 
+
+***********About Page ********************************
+
+- Meet Jackie 
+- Fan Looks and Art Submissions 
+- Collaborations Contact 
+- Brands I've Worked With
+
+*********** Find Your Style ********************************
+
+- Quiz Component 
+
+*********** My Style ********************************
+- PhotoShoots Carousel 
+- Spring/Summer Carousel 
+- Fall/Winter Carousel 
+
+*********** Vlogs ********************************
+
+- Banner Image 
+- Videos Embedded 
+
+*********** Confessions ********************************
+
+- Cards Representing
+    - Newest Post 
+        - Link to single post 
+    - Hottest Trends 
+        - Link to Hottest Trends Posts
+    - Vintage Vibes 
+        - Link to Vintage Vibes Posts
+    - Pop Culture Obsessed 
+        - Link to Pop Culture Obsessed  Posts
+
+
+*********** Trends/Vintage/Pop home pages ********************************
+    - specific article cards 
+        - link to articles 
+
+*********** Product Reviews ********************************
+
+    

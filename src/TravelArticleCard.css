@@ -1,0 +1,90 @@
+/* TravelArticleCard.css */
+.article-card {
+    font-family: "GFS Didot", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-height: 30vh;
+    border: 1px solid #ddd;
+    margin: 2rem auto; /* Increased margin for better spacing around the card */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    overflow: hidden;
+  }
+  
+  .article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .article-image {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .article-content {
+    padding: 1.5rem; /* Increased padding for better spacing */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .article-date {
+    font-family: "GFS Didot", sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    margin-bottom: 1rem; /* Increased space below the date */
+    color: #745B4F; /* Updated color */
+  }
+  
+  .article-title {
+    font-family: "GFS Didot", sans-serif;
+    font-size: 2.2rem; /* Slightly larger text for title */
+    color: black; /* Updated color */
+  }
+  
+  .article-social-links {
+    text-align: right;
+  }
+  
+  .read-more {
+    font-family: "GFS Didot", sans-serif;
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem; /* More prominent button */
+    cursor: pointer;
+    border: none;
+    background-color: #745B4F; /* Updated color */
+    color: #fff;
+    transition: background-color 0.2s ease;
+  }
+  
+  .read-more:hover {
+    background-color: darken(#745B4F, 90%); /* Darker on hover, you might need to adjust the color manually if darken() function is not available */
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .article-card {
+      flex-direction: column;
+      max-height: none;
+    }
+  
+    .article-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .article-content {
+      width: 100%;
+    }
+  
+    .article-date, .article-title, .read-more {
+      text-align: center;
+    }
+  }
+  

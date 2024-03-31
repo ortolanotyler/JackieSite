@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    width: 100%; /* Ensures the container fills the width of its parent */
+  }
+  
+  .section {
+    flex: 1; /* This makes each section flex equally */
+    text-align: center; /* Centers the text horizontally */
+    padding: 20px; /* Adds some padding inside each section */
+  }
+  

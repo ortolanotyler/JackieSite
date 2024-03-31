@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=GFS+Didot&family=Italianno&display=swap');
+
+.about-container {
+    background-color: white;
+    font-family: 'GFS Didot, serif';
+    height: 'auto';
+  }
+  
+  .about-meet-jackie {
+    font-family: 'GFS Didot, serif';
+    background-color: white;
+    padding: 3rem;
+  }
+  
+  .about-text-section {
+    font-family: 'GFS Didot, serif';
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .about-left-section {
+    font-family: 'GFS Didot, serif';
+    flex: 1;
+    background-image: url('../Images/emily2.png'); /* Update path as needed */
+    background-size: 150%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    color: black;
+    font-family: 'GFS Didot, serif';
+    position: relative; /* Needed for the pseudo-element to position correctly */
+  }
+  
+  .about-left-section::before {
+    font-family: 'GFS Didot, serif';
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.7); /* Adjust transparency here */
+    z-index: 0; /* Ensures the overlay is behind the content */
+  }
+  
+  .about-left-text {
+    font-family: "GFS Didot, serif";
+    position: relative; /* Ensures the text is on top of the overlay */
+    z-index: 1; /* Ensures the text is on top of the overlay */
+    padding: 2rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: justify;
+    text-indent: 2em;
+  }
+  
+  
+  .about-right-section {
+    background-color: #EBE8E4;
+    flex: 1;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    padding: '1rem';
+  }
+  
+  .about-right-image {
+  top: 0;
+  width: 100%;
+    height: auto;
+    padding-right: 1rem;
+   
+  }
+  
+  .about-collaborations-section {
+    background-color: #EBE8E4;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    font-family: 'GFS Didot, serif';
+
+  }
+  
+  .about-collaborations-text {
+    background-color: #EBE8E4;
+    flex: 1;
+    padding: 20px;
+    font-family: 'GFS Didot, serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .about-collaborations-title {
+    font-size: 20px;
+  }
+  
+  .about-collaborations-left-image {
+    background-color: #EBE8E4;
+    width: 75%;
+    height: auto;
+  }
+  
+  /* Add more specific styles as needed */
+  

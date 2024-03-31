@@ -1,0 +1,12 @@
+/* Add this to the CSS file that styles the list */
+.article-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the cards in the list */
+    width: 80%; /* Full width to center the list in the viewport */
+    max-width: 3000px; /* Max width for the overall list */
+    margin: auto; /* Auto margins for centering */
+    padding: 1rem; /* Padding around the list */
+    overflow-y: auto; /* Allows for scrolling */
+  }
+  

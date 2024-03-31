@@ -1,0 +1,84 @@
+/* ContactForm.module.css */
+.container {
+    left: 0.2rem;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 1.5rem;
+    padding: 20px;
+    height: 40vh;
+    font-family: 'GFS Didot', sans-serif;
+    background-color: #FDEDEF;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    flex-wrap: wrap; /* Enable wrapping for smaller screens */
+  }
+  
+  .column {
+    font-family: 'GFS Didot', sans-serif;
+    flex: 1;
+    padding: 0.5rem;
+    color: black;
+  }
+  
+  .form {
+    display: flex;
+    padding: 2rem;
+    font-family: 'GFS Didot', sans-serif;
+    flex-direction: column;
+  }
+  
+  .input, .textarea {
+    background-color: white;
+    padding: 10px;
+    font-family: 'GFS Didot', sans-serif;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    width: 100%; /* Ensure inputs take full width of form */
+  }
+  
+  .button {
+    padding: 10px;
+    font-family: 'GFS Didot', sans-serif;
+    border: none;
+    color: black;
+    cursor: pointer;
+    width: 100%; /* Make the button take full width of form */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container {
+      font-size: 1.2rem;
+      padding: 10px;
+      height: auto; /* Adjust height for smaller devices */
+    }
+  
+    .form {
+      padding: 1rem;
+    }
+  
+    .input, .textarea {
+      padding: 8px; /* Slightly reduce padding */
+    }
+  
+    .button {
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      font-size: 1rem; /* Further reduce font size for very small devices */
+    }
+  
+    .column {
+      padding: 0.2rem;
+    }
+  
+    .form {
+      padding: 0.5rem;
+    }
+  }
+  
