@@ -1,38 +1,36 @@
 import React, { useEffect, useRef } from 'react';
 import modifyAnchorTags from './modifyanchortags'; // Update the path as necessary
-
-import Lana1 from './Images/Lana1.png';
-import Lana2 from './Images/Lana2.png';
-import lanafacechart from './Images/LanaFaceChart.png';
-import Lana3 from './Images/Lana3.png';
-import Lana4 from './Images/Lana4.png';
-import Lana5 from './Images/Lana5.png';
-import Lana6 from './Images/Lana6.png';
-import Lana7 from './Images/Lana7.png';
-import Lana8 from './Images/Lana8.png';
-import Lana9 from './Images/Lana9.png';
-import Lana10 from './Images/Lana10.png';
-import Lana11 from './Images/Lana11.png';
-import Lana12 from './Images/Lana12.png';
-import Lana13 from './Images/Lana13.png';
-import Lana14 from './Images/Lana14.png';
-import Lana15 from './Images/Lana15.png';
-import Lana16 from './Images/Lana16.png';
-import Lana17 from './Images/Lana17.png';
-import Lana18 from './Images/Lana18.png';
-import Lana19 from './Images/Lana19.png';
-import Lana20 from './Images/Lana20.png';
-import Lana21 from './Images/Lana21.png';
-import Lana22 from './Images/Lana22.png';
-import Lana23 from './Images/lana23.png';
-
-
-
-
 import './BarbieBlogPost.css';
 import TextReveal from './Views/MeetJackie/TextReveal';
 import HyvorTalkComments from './HyvorTalkComments';
 import SubscribeButton from './SubscribeButton';
+
+
+const Lana1 = `${process.env.PUBLIC_URL}/Images/Lana1.png`;
+const Lana2 = `${process.env.PUBLIC_URL}/Images/Lana2.png`;
+const lanafacechart = `${process.env.PUBLIC_URL}/Images/LanaFaceChart.png`;
+const Lana3 = `${process.env.PUBLIC_URL}/Images/Lana3.png`;
+const Lana4 = `${process.env.PUBLIC_URL}/Images/Lana4.png`;
+const Lana5 = `${process.env.PUBLIC_URL}/Images/Lana5.png`;
+const Lana6 = `${process.env.PUBLIC_URL}/Images/Lana6.png`;
+const Lana7 = `${process.env.PUBLIC_URL}/Images/Lana7.png`;
+const Lana8 = `${process.env.PUBLIC_URL}/Images/Lana8.png`;
+const Lana9 = `${process.env.PUBLIC_URL}/Images/Lana9.png`;
+const Lana10 = `${process.env.PUBLIC_URL}/Images/Lana10.png`;
+const Lana11 = `${process.env.PUBLIC_URL}/Images/Lana11.png`;
+const Lana12 = `${process.env.PUBLIC_URL}/Images/Lana12.png`;
+const Lana13 = `${process.env.PUBLIC_URL}/Images/Lana13.png`;
+const Lana14 = `${process.env.PUBLIC_URL}/Images/Lana14.png`;
+const Lana15 = `${process.env.PUBLIC_URL}/Images/Lana15.png`;
+const Lana16 = `${process.env.PUBLIC_URL}/Images/Lana16.png`;
+const Lana17 = `${process.env.PUBLIC_URL}/Images/Lana17.png`;
+const Lana18 = `${process.env.PUBLIC_URL}/Images/Lana18.png`;
+const Lana19 = `${process.env.PUBLIC_URL}/Images/Lana19.png`;
+const Lana20 = `${process.env.PUBLIC_URL}/Images/Lana20.png`;
+const Lana21 = `${process.env.PUBLIC_URL}/Images/Lana21.png`;
+const Lana22 = `${process.env.PUBLIC_URL}/Images/Lana22.png`;
+const Lana23 = `${process.env.PUBLIC_URL}/Images/lana23.png`;
+
 
 
 

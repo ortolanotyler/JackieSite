@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Slider.css'; // Make sure the path to your CSS file is correct
 
-// Import your images
-import image1 from '../../Images/central1.jpg';
-import image2 from '../../Images/mystyle2.jpg';
-import image3 from '../../Images/mystyle3.jpg';
+const image1 = `${process.env.PUBLIC_URL}/Images/central1.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/mystyle2.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/mystyle3.jpg`;
+
 
 
 const imageDetails = [

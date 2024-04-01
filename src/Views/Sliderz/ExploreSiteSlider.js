@@ -2,9 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import './ExploreSlider.css'; // Make sure the path to your CSS file is correct
 
 // Import your images
-import image1 from '../../Images/LatteMakeupHero.png';
-import image2 from '../../Images/Barbie1.jpg';
-import image3 from '../../Images/SophiaSquareThumbnailforArticle.jpg';
+// Instead of direct import statements for images, use the PUBLIC_URL for dynamic path resolution
+const image1 = `${process.env.PUBLIC_URL}/Images/LatteMakeupHero.png`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Barbie1.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/SophiaSquareThumbnailforArticle.jpg`;
+
 
 const imageDetails = [
   {

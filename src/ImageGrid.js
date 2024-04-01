@@ -3,14 +3,15 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
 // Import your images
-import image1 from './Images/HomePage1.jpg';
-import image2 from './Images/HomePage2.jpg';
-import image3 from './Images/HomePage3.jpg';
-import image4 from './Images/HomePage4.jpg';
-import image5 from './Images/HomePage5.jpg';
-import image6 from './Images/HomePage6.jpg';
-import image7 from './Images/HomePage7.jpg';
-import image8 from './Images/HomePage8.jpg';
+const image1 = `${process.env.PUBLIC_URL}/Images/HomePage1.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/HomePage2.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/HomePage3.jpg`;
+const image4 = `${process.env.PUBLIC_URL}/Images/HomePage4.jpg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/HomePage5.jpg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/HomePage6.jpg`;
+const image7 = `${process.env.PUBLIC_URL}/Images/HomePage7.jpg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/HomePage8.jpg`;
+
 
 
 const itemData = [

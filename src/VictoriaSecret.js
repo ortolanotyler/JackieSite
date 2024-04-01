@@ -1,40 +1,41 @@
 import React, { useEffect, useRef } from 'react';
 import modifyAnchorTags from './modifyanchortags'; // Update the path as necessary
-
-
-
-import Victoria1 from './Images/Victoria1.png';
-import Victoria2 from './Images/Victoria2.png';
-import Victoria3 from './Images/Victoria3.png';
-import Victoria4 from './Images/Victoria4.png';
-import Victoria5 from './Images/Victoria5.png';
-import Victoria6 from './Images/Victoria6.png';
-import Victoria7 from './Images/Victoria7.png';
-import Victoria8 from './Images/Victoria8.png';
-import Victoria9 from './Images/Victoria9.png';
-import Victoria10 from './Images/Victoria10.png';
-import Victoria11 from './Images/Victoria11.png';
-import Victoria12 from './Images/Victoria12.png';
-import Victoria13 from './Images/Victoria13.png';
-import Victoria14 from './Images/Victoria14.png';
-import Victoria15 from './Images/Victoria15.png';
-import Victoria16 from './Images/Victoria16.png';
-import Victoria17 from './Images/Victoria17.png';
-import Victoria18 from './Images/Victoria18.png';
-import Victoria19 from './Images/Victoria19.png';
-import Victoria20 from './Images/Victoria20.png';
-import Victoria21 from './Images/Victoria21.png';
-import Victoria22 from './Images/Victoria22.png';
-import Victoria23 from './Images/Victoria23.png';
-import Victoria24 from './Images/Victoria24.png';
-import Victoria25 from './Images/Victoria25.png';
-import Victoria26 from './Images/VictoriaFinal.png';
-import Barbie16 from './Images/Barbie16.png';
 import TextReveal from './Views/MeetJackie/TextReveal';
 
 import './BarbieBlogPost.css';
 import HyvorTalkComments from './HyvorTalkComments';
 import SubscribeButton from './SubscribeButton';
+
+
+const Victoria1 = `${process.env.PUBLIC_URL}/Images/Victoria1.png`;
+const Victoria2 = `${process.env.PUBLIC_URL}/Images/Victoria2.png`;
+const Victoria3 = `${process.env.PUBLIC_URL}/Images/Victoria3.png`;
+const Victoria4 = `${process.env.PUBLIC_URL}/Images/Victoria4.png`;
+const Victoria5 = `${process.env.PUBLIC_URL}/Images/Victoria5.png`;
+const Victoria6 = `${process.env.PUBLIC_URL}/Images/Victoria6.png`;
+const Victoria7 = `${process.env.PUBLIC_URL}/Images/Victoria7.png`;
+const Victoria8 = `${process.env.PUBLIC_URL}/Images/Victoria8.png`;
+const Victoria9 = `${process.env.PUBLIC_URL}/Images/Victoria9.png`;
+const Victoria10 = `${process.env.PUBLIC_URL}/Images/Victoria10.png`;
+const Victoria11 = `${process.env.PUBLIC_URL}/Images/Victoria11.png`;
+const Victoria12 = `${process.env.PUBLIC_URL}/Images/Victoria12.png`;
+const Victoria13 = `${process.env.PUBLIC_URL}/Images/Victoria13.png`;
+const Victoria14 = `${process.env.PUBLIC_URL}/Images/Victoria14.png`;
+const Victoria15 = `${process.env.PUBLIC_URL}/Images/Victoria15.png`;
+const Victoria16 = `${process.env.PUBLIC_URL}/Images/Victoria16.png`;
+const Victoria17 = `${process.env.PUBLIC_URL}/Images/Victoria17.png`;
+const Victoria18 = `${process.env.PUBLIC_URL}/Images/Victoria18.png`;
+const Victoria19 = `${process.env.PUBLIC_URL}/Images/Victoria19.png`;
+const Victoria20 = `${process.env.PUBLIC_URL}/Images/Victoria20.png`;
+const Victoria21 = `${process.env.PUBLIC_URL}/Images/Victoria21.png`;
+const Victoria22 = `${process.env.PUBLIC_URL}/Images/Victoria22.png`;
+const Victoria23 = `${process.env.PUBLIC_URL}/Images/Victoria23.png`;
+const Victoria24 = `${process.env.PUBLIC_URL}/Images/Victoria24.png`;
+const Victoria25 = `${process.env.PUBLIC_URL}/Images/Victoria25.png`;
+const Victoria26 = `${process.env.PUBLIC_URL}/Images/VictoriaFinal.png`;
+const Barbie16 = `${process.env.PUBLIC_URL}/Images/Barbie16.png`;
+
+
 
 
 

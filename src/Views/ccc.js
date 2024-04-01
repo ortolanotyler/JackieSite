@@ -1,10 +1,10 @@
 import React from 'react';
 import './aaa.css';
 
-// Importing the images
-import image1 from '../Images/Barbie1.jpg';
-import image2 from '../Images/LatteMakeupHero.png';
-import image3 from '../Images/patmcgrath1.jpeg';
+const image1 = `${process.env.PUBLIC_URL}/Images/Barbie1.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/LatteMakeupHero.png`;
+const image3 = `${process.env.PUBLIC_URL}/Images/patmcgrath1.jpeg`;
+
 
 const cardsData = [
   {

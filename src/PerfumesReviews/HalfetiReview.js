@@ -1,11 +1,16 @@
 import React, { useEffect, useRef } from 'react';
 import TextReveal from '../Views/MeetJackie/TextReveal';
-import halfeti1 from '../Images/Halfeti1.png';
-import halfeti2 from '../Images/Halfeti2.png';
-import halfeti3 from '../Images/Halfeti3.png';
-import halfeti4 from '../Images/Halfeti4.png';
-import halfeti5 from '../Images/Halfeti5.png';
-import halfeti6 from '../Images/Halfeti6.png';
+
+
+const halfeti1 = `${process.env.PUBLIC_URL}/Images/Halfeti1.png`;
+const halfeti2 = `${process.env.PUBLIC_URL}/Images/Halfeti2.png`;
+const halfeti3 = `${process.env.PUBLIC_URL}/Images/Halfeti3.png`;
+const halfeti4 = `${process.env.PUBLIC_URL}/Images/Halfeti4.png`;
+const halfeti5 = `${process.env.PUBLIC_URL}/Images/Halfeti5.png`;
+const halfeti6 = `${process.env.PUBLIC_URL}/Images/Halfeti6.png`;
+
+
+
 
 const Card = ({ blogContent }) => {
     return (

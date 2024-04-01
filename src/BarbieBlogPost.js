@@ -4,23 +4,25 @@ import modifyAnchorTags from './modifyanchortags'; // Update the path as necessa
 import TextReveal from './Views/MeetJackie/TextReveal';
 import HyvorTalkComments from './HyvorTalkComments'; // Ensure this path is correct to your Hyvor Talk component
 import './BarbieBlogPost.css';
-import Barbie1 from './Images/Barbie1.png';
-import Barbie2 from './Images/Barbie2.png';
-import Barbie3 from './Images/Barbie3.jpg';
-import Barbie4 from './Images/Barbie4.png';
-import Barbie5 from './Images/Barbie5.png';
-import Barbie6 from './Images/Barbie6.png';
-import Barbie7 from './Images/Barbie7.png';
-import Barbie8 from './Images/Barbie8.png';
-import Barbie9 from './Images/Barbie9.png';
-import Barbie10 from './Images/Barbie10.png';
-import Barbie11 from './Images/Barbie11.png';
-import Barbie12 from './Images/Barbie12.png';
-import Barbie13 from './Images/Barbie13.png';
-import Barbie14 from './Images/Barbie14.png';
-import Barbie15 from './Images/Barbie15.png';
-import Barbie16 from './Images/Barbie16.png';
-import BarbieX from './Images/PurXBarbie.png';
+
+
+const Barbie1 = `${process.env.PUBLIC_URL}/Images/Barbie1.png`;
+const Barbie2 = `${process.env.PUBLIC_URL}/Images/Barbie2.png`;
+const Barbie3 = `${process.env.PUBLIC_URL}/Images/Barbie3.jpg`;
+const Barbie4 = `${process.env.PUBLIC_URL}/Images/Barbie4.png`;
+const Barbie5 = `${process.env.PUBLIC_URL}/Images/Barbie5.png`;
+const Barbie6 = `${process.env.PUBLIC_URL}/Images/Barbie6.png`;
+const Barbie7 = `${process.env.PUBLIC_URL}/Images/Barbie7.png`;
+const Barbie8 = `${process.env.PUBLIC_URL}/Images/Barbie8.png`;
+const Barbie9 = `${process.env.PUBLIC_URL}/Images/Barbie9.png`;
+const Barbie10 = `${process.env.PUBLIC_URL}/Images/Barbie10.png`;
+const Barbie11 = `${process.env.PUBLIC_URL}/Images/Barbie11.png`;
+const Barbie12 = `${process.env.PUBLIC_URL}/Images/Barbie12.png`;
+const Barbie13 = `${process.env.PUBLIC_URL}/Images/Barbie13.png`;
+const Barbie14 = `${process.env.PUBLIC_URL}/Images/Barbie14.png`;
+const Barbie15 = `${process.env.PUBLIC_URL}/Images/Barbie15.png`;
+const Barbie16 = `${process.env.PUBLIC_URL}/Images/Barbie16.png`;
+const BarbieX = `${process.env.PUBLIC_URL}/Images/PurXBarbie.png`;
 
 
 

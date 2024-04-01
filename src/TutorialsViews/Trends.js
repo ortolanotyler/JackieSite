@@ -2,13 +2,13 @@ import React from 'react';
 import './aaa.css'; // Importing the same CSS file as Slider1
 
 // Importing the images
-import image2 from '../Images/LatteMakeupHero.png';
-import image3 from '../Images/patmcgrath1.jpeg';
-import image5 from '../Images/SugarPlum1.jpg';
-import image6 from '../Images/LanaThumbnail.jpg';
-import image7 from '../Images/SharonThumnail.jpg';
-import TextReveal from '../Views/MeetJackie/TextReveal';
 
+import TextReveal from '../Views/MeetJackie/TextReveal';
+const image2 = `${process.env.PUBLIC_URL}/Images/LatteMakeupHero.png`;
+const image3 = `${process.env.PUBLIC_URL}/Images/patmcgrath1.jpeg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/SugarPlum1.jpg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/LanaThumbnail.jpg`;
+const image7 = `${process.env.PUBLIC_URL}/Images/SharonThumnail.jpg`;
 const cardsData = [
   {
     link: "/sharontate",

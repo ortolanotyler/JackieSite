@@ -2,11 +2,12 @@ import React from 'react';
 import './aaa.css';
 
 // Importing the images
-import image1 from '../Images/Sophia1.png';
-import image2 from '../Images/SophiaSquareThumbnailforArticle.jpg';
-import image3 from '../Images/Vintage2Thumbnail.jpg';
-import balke from '../Images/BalkeThumb.jpeg';
-import sharon from '../Images/IconicThumbnail.png'; //
+const image1 = `${process.env.PUBLIC_URL}/Images/Sophia1.png`;
+const image2 = `${process.env.PUBLIC_URL}/Images/SophiaSquareThumbnailforArticle.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Vintage2Thumbnail.jpg`;
+const balke = `${process.env.PUBLIC_URL}/Images/BalkeThumb.jpeg`;
+const sharon = `${process.env.PUBLIC_URL}/Images/IconicThumbnail.png`;
+
 const cardsData = [
   {
     link: "/sophialoren",

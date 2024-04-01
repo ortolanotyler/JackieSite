@@ -1,39 +1,40 @@
 import React, { useEffect, useRef } from 'react';
 import modifyAnchorTags from './modifyanchortags'; // Update the path as necessary
 
-import Pat1 from './Images/Pat1.png';
-import Pat2 from './Images/Pat2.png';
-import Pat3 from './Images/Pat3.png';
-import Pat4 from './Images/Pat4.png';
-import Pat5 from './Images/Pat5.png';
-import Pat6 from './Images/Pat6.png';
-import Pat7 from './Images/Pat7.png';
-import Pat8 from './Images/Pat8.png';
-import Pat9 from './Images/Pat9.png';
-import Pat10 from './Images/Pat10.png';
-import Pat11 from './Images/Pat11.png';
-import Pat12 from './Images/Pat12.png';
-import Pat13 from './Images/Pat13.png';
-import Pat14 from './Images/Pat14.png';
-import Pat15 from './Images/Pat15.png';
-import Pat16 from './Images/Pat16.png';
-import Pat17 from './Images/Pat17.png';
-import Pat18 from './Images/Pat18.png';
-import Pat19 from './Images/Pat19.png';
-import Pat20 from './Images/Pat20.png';
-import Pat21 from './Images/Pat21.png';
-import Pat22 from './Images/Pat22.png';
-import Pat23 from './Images/Pat23.png';
-import Pat24 from './Images/Pat24.png';
-import Pat25 from './Images/Pat25.png';
-
-
-
-
-
 import './BarbieBlogPost.css';
 import TextReveal from './Views/MeetJackie/TextReveal';
 import HyvorTalkComments from './HyvorTalkComments';
+
+
+
+
+const Pat1 = `${process.env.PUBLIC_URL}/Images/Pat1.png`;
+const Pat2 = `${process.env.PUBLIC_URL}/Images/Pat2.png`;
+const Pat3 = `${process.env.PUBLIC_URL}/Images/Pat3.png`;
+const Pat4 = `${process.env.PUBLIC_URL}/Images/Pat4.png`;
+const Pat5 = `${process.env.PUBLIC_URL}/Images/Pat5.png`;
+const Pat6 = `${process.env.PUBLIC_URL}/Images/Pat6.png`;
+const Pat7 = `${process.env.PUBLIC_URL}/Images/Pat7.png`;
+const Pat8 = `${process.env.PUBLIC_URL}/Images/Pat8.png`;
+const Pat9 = `${process.env.PUBLIC_URL}/Images/Pat9.png`;
+const Pat10 = `${process.env.PUBLIC_URL}/Images/Pat10.png`;
+const Pat11 = `${process.env.PUBLIC_URL}/Images/Pat11.png`;
+const Pat12 = `${process.env.PUBLIC_URL}/Images/Pat12.png`;
+const Pat13 = `${process.env.PUBLIC_URL}/Images/Pat13.png`;
+const Pat14 = `${process.env.PUBLIC_URL}/Images/Pat14.png`;
+const Pat15 = `${process.env.PUBLIC_URL}/Images/Pat15.png`;
+const Pat16 = `${process.env.PUBLIC_URL}/Images/Pat16.png`;
+const Pat17 = `${process.env.PUBLIC_URL}/Images/Pat17.png`;
+const Pat18 = `${process.env.PUBLIC_URL}/Images/Pat18.png`;
+const Pat19 = `${process.env.PUBLIC_URL}/Images/Pat19.png`;
+const Pat20 = `${process.env.PUBLIC_URL}/Images/Pat20.png`;
+const Pat21 = `${process.env.PUBLIC_URL}/Images/Pat21.png`;
+const Pat22 = `${process.env.PUBLIC_URL}/Images/Pat22.png`;
+const Pat23 = `${process.env.PUBLIC_URL}/Images/Pat23.png`;
+const Pat24 = `${process.env.PUBLIC_URL}/Images/Pat24.png`;
+const Pat25 = `${process.env.PUBLIC_URL}/Images/Pat25.png`;
+
+
 
 
 

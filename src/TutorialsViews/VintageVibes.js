@@ -1,11 +1,15 @@
 import React from 'react';
 import './aaa.css'; // Importing the same CSS file as the previous components
+import TextReveal from '../Views/MeetJackie/TextReveal';
 
 // Importing the images
-import image3 from '../Images/SophiaSquareThumbnailforArticle.jpg';
-import image7 from '../Images/SharonThumnail.jpg';
-import TextReveal from '../Views/MeetJackie/TextReveal';
-import sharon from '../Images/IconicThumbnail.png';
+const image3 = `${process.env.PUBLIC_URL}/Images/SophiaSquareThumbnailforArticle.jpg`;
+const image7 = `${process.env.PUBLIC_URL}/Images/SharonThumnail.jpg`;
+const sharon = `${process.env.PUBLIC_URL}/Images/IconicThumbnail.png`;
+
+
+
+
 const cardsData = [
   {
     link: "/sharontate",

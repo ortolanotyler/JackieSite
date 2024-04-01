@@ -1,34 +1,32 @@
 import React, { useEffect, useRef } from 'react';
 import modifyAnchorTags from './modifyanchortags'; // Update the path as necessary
-
-
-import TopHero from './Images/Sugar1.png';
-import Sugar2 from './Images/Sugar2.png';
-import Sugar3 from './Images/Sugar3.png';
-import Sugar4 from './Images/Sugar4.png';
-import Sugar5 from './Images/Sugar5.png';
-import Sugar6 from './Images/Sugar6.png';
-import Sugar7 from './Images/Sugar7.png';
-import Sugar8 from './Images/Sugar8.png';
-import Sugar9 from './Images/Sugar9.png';
-import Sugar10 from './Images/Sugar10.png';
-import Sugar11 from './Images/Sugar11.png';
-import Sugar12 from './Images/Sugar12.png';
-import Sugar13 from './Images/Sugar13.png';
-import Sugar14 from './Images/Sugar14.png';
-import Sugar15 from './Images/Sugar15.png';
-import Sugar16 from './Images/Sugar16.png';
-import Sugar17 from './Images/Sugar17.png';
-import SugarKosas from './Images/SugarKosas.png';
-import Signature from './Images/Signature.png';
-import SugarHalf from './Images/SugarHalfMagic.png';
-
-
-
-
 import './BarbieBlogPost.css';
 import TextReveal from './Views/MeetJackie/TextReveal';
 import HyvorTalkComments from './HyvorTalkComments';
+
+
+const TopHero = `${process.env.PUBLIC_URL}/Images/Sugar1.png`;
+const Sugar2 = `${process.env.PUBLIC_URL}/Images/Sugar2.png`;
+const Sugar3 = `${process.env.PUBLIC_URL}/Images/Sugar3.png`;
+const Sugar4 = `${process.env.PUBLIC_URL}/Images/Sugar4.png`;
+const Sugar5 = `${process.env.PUBLIC_URL}/Images/Sugar5.png`;
+const Sugar6 = `${process.env.PUBLIC_URL}/Images/Sugar6.png`;
+const Sugar7 = `${process.env.PUBLIC_URL}/Images/Sugar7.png`;
+const Sugar8 = `${process.env.PUBLIC_URL}/Images/Sugar8.png`;
+const Sugar9 = `${process.env.PUBLIC_URL}/Images/Sugar9.png`;
+const Sugar10 = `${process.env.PUBLIC_URL}/Images/Sugar10.png`;
+const Sugar11 = `${process.env.PUBLIC_URL}/Images/Sugar11.png`;
+const Sugar12 = `${process.env.PUBLIC_URL}/Images/Sugar12.png`;
+const Sugar13 = `${process.env.PUBLIC_URL}/Images/Sugar13.png`;
+const Sugar14 = `${process.env.PUBLIC_URL}/Images/Sugar14.png`;
+const Sugar15 = `${process.env.PUBLIC_URL}/Images/Sugar15.png`;
+const Sugar16 = `${process.env.PUBLIC_URL}/Images/Sugar16.png`;
+const Sugar17 = `${process.env.PUBLIC_URL}/Images/Sugar17.png`;
+const SugarKosas = `${process.env.PUBLIC_URL}/Images/SugarKosas.png`;
+const Signature = `${process.env.PUBLIC_URL}/Images/Signature.png`;
+const SugarHalf = `${process.env.PUBLIC_URL}/Images/SugarHalfMagic.png`;
+
+
 
 
 

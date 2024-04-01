@@ -1,11 +1,13 @@
 import React, { useEffect, useRef } from 'react';
 import TextReveal from '../Views/MeetJackie/TextReveal';
-import BonBon1 from '../Images/BonBon1.png';
-import BonBon2 from '../Images/BonBon2.png';
-import BonBon3 from '../Images/BonBon3.png';
-import BonBon4 from '../Images/BonBon4.png';
-import BonBon5 from '../Images/BonBon5.png';
-import BonBon6 from '../Images/BonBon6.png';
+
+const BonBon1 = `${process.env.PUBLIC_URL}/Images/BonBon1.png`;
+const BonBon2 = `${process.env.PUBLIC_URL}/Images/BonBon2.png`;
+const BonBon3 = `${process.env.PUBLIC_URL}/Images/BonBon3.png`;
+const BonBon4 = `${process.env.PUBLIC_URL}/Images/BonBon4.png`;
+const BonBon5 = `${process.env.PUBLIC_URL}/Images/BonBon5.png`;
+const BonBon6 = `${process.env.PUBLIC_URL}/Images/BonBon6.png`;
+
 
 const Card = ({ blogContent }) => {
     return (

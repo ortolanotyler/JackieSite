@@ -22,15 +22,16 @@
 
 .about-left-section {
   flex: 1;
-  background-image: url('../Images/emily2.png'); /* Update path as needed */
-  background-size: 150%;
+  background-image: url('/public/Images/emily2.png'); /* Replace '/public' with your actual public URL */
+  background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   padding: 3rem;
   color: black;
-  position: relative; /* Needed for the pseudo-element to position correctly */
+  position: relative;
 }
+
 
 .about-left-section::before {
   content: '';

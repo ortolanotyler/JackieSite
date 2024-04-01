@@ -1,8 +1,9 @@
 
 import React from 'react';
 import Tutorial from './viewComponents/Tutorial';
-import SugarPlum from '../Images/SugarPlumHero.png';
-import LatteMakeup from '../Images/LatteMakeupHero.png';
+const SugarPlum = `${process.env.PUBLIC_URL}/Images/SugarPlumHero.png`;
+const LatteMakeup = `${process.env.PUBLIC_URL}/Images/LatteMakeupHero.png`;
+
 
 
 

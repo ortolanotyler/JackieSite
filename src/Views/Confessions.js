@@ -2,10 +2,12 @@
 
 
 import React from 'react';
-import Genres from './Genres';
-import YouTubeBanner from '../Images/JackieYTHero.png';
+
 import TextReveal from './MeetJackie/TextReveal'; // Ensure this path is correct
 import BlogCard from './BlogCard/BlogCard';
+
+const YouTubeBanner = `${process.env.PUBLIC_URL}/Images/JackieYTHero.png`;
+
 
 const Confessions = ({ title, description }) => {
     return (

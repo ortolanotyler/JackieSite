@@ -2,28 +2,28 @@ import React from 'react';
 import TextReveal from './Views/MeetJackie/TextReveal';
 import HyvorTalkComments from './HyvorTalkComments'; // Ensure this path is correct to your Hyvor Talk component
 import './BarbieBlogPost.css';
-import Balke1 from './Images/Balke1.png';
-import Balke2 from './Images/Balke2.png';
-import Balke3 from './Images/Balke3.png';   
-import Balke4 from './Images/Balke4.png';
-import Balke5 from './Images/Balke5.png';
-import Balke6 from './Images/Balke6.png';
-import Balke7 from './Images/Balke7.png';
-import Balke8 from './Images/Balke8.png';
-import Balke9 from './Images/Balke9.png';
-import Balke10 from './Images/Balke10.png';
-import Balke11 from './Images/Balke11.png';
-import Balke12 from './Images/Balke12.png';
-import Balke13 from './Images/Balke13.png';
-import Balke14 from './Images/Balke14.png';
-import Balke15 from './Images/Balke15.png';
-import Balke16 from './Images/Balke16.png';
-import Balke17 from './Images/Balke17.png';
-import Balke18 from './Images/Balke18.png';
-import Balke19 from './Images/Balke19.png';
-import Balke20 from './Images/Balke20.png';
-import Balke21 from './Images/Balke21.png';
 
+const Balke1 = `${process.env.PUBLIC_URL}/Images/Balke1.png`;
+const Balke2 = `${process.env.PUBLIC_URL}/Images/Balke2.png`;
+const Balke3 = `${process.env.PUBLIC_URL}/Images/Balke3.png`;
+const Balke4 = `${process.env.PUBLIC_URL}/Images/Balke4.png`;
+const Balke5 = `${process.env.PUBLIC_URL}/Images/Balke5.png`;
+const Balke6 = `${process.env.PUBLIC_URL}/Images/Balke6.png`;
+const Balke7 = `${process.env.PUBLIC_URL}/Images/Balke7.png`;
+const Balke8 = `${process.env.PUBLIC_URL}/Images/Balke8.png`;
+const Balke9 = `${process.env.PUBLIC_URL}/Images/Balke9.png`;
+const Balke10 = `${process.env.PUBLIC_URL}/Images/Balke10.png`;
+const Balke11 = `${process.env.PUBLIC_URL}/Images/Balke11.png`;
+const Balke12 = `${process.env.PUBLIC_URL}/Images/Balke12.png`;
+const Balke13 = `${process.env.PUBLIC_URL}/Images/Balke13.png`;
+const Balke14 = `${process.env.PUBLIC_URL}/Images/Balke14.png`;
+const Balke15 = `${process.env.PUBLIC_URL}/Images/Balke15.png`;
+const Balke16 = `${process.env.PUBLIC_URL}/Images/Balke16.png`;
+const Balke17 = `${process.env.PUBLIC_URL}/Images/Balke17.png`;
+const Balke18 = `${process.env.PUBLIC_URL}/Images/Balke18.png`;
+const Balke19 = `${process.env.PUBLIC_URL}/Images/Balke19.png`;
+const Balke20 = `${process.env.PUBLIC_URL}/Images/Balke20.png`;
+const Balke21 = `${process.env.PUBLIC_URL}/Images/Balke21.png`;
 
 
 

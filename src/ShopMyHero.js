@@ -1,5 +1,6 @@
 import React from 'react';
-import fashionImage from './Images/mystyle8.jpg';
+const fashionImage = `${process.env.PUBLIC_URL}/Images/mystyle8.jpg`;
+
 
 function ShopMyHero() {
   return (

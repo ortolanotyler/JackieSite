@@ -2,14 +2,15 @@ import React from 'react';
 import './aaa.css';
 
 // Importing the images
-import image2 from '../Images/LatteMakeupHero.png';
-import image5 from '../Images/SugarPlum1.jpg';
-import image6 from '../Images/LanaThumbnail.jpg';
-import image7 from '../Images/SharonThumnail.jpg';
-import image8 from '../Images/victoriathumbnail.jpeg';
-import sophia from '../Images/SophiaSquareThumbnailforArticle.jpg';
-import ina from '../Images/BalkeThumb.jpeg';
-import sharon from '../Images/IconicThumbnail.png';
+const image2 = `${process.env.PUBLIC_URL}/Images/LatteMakeupHero.png`;
+const image5 = `${process.env.PUBLIC_URL}/Images/SugarPlum1.jpg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/LanaThumbnail.jpg`;
+const image7 = `${process.env.PUBLIC_URL}/Images/SharonThumnail.jpg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/victoriathumbnail.jpeg`;
+const sophia = `${process.env.PUBLIC_URL}/Images/SophiaSquareThumbnailforArticle.jpg`;
+const ina = `${process.env.PUBLIC_URL}/Images/BalkeThumb.jpeg`;
+const sharon = `${process.env.PUBLIC_URL}/Images/IconicThumbnail.png`;
+
 
 
 const cardsData = [

@@ -1,40 +1,42 @@
 import React, { useEffect, useRef } from 'react';
 import modifyAnchorTags from './modifyanchortags'; // Update the path as necessary
-import Sharon1 from './Images/Sharon1.png'
-import Sharon2 from './Images/Sharon2.png'
-
-import Sharon4a from './Images/Sharon4.jpg';
-import Sharon4 from './Images/Sharon4.png';
-import Sharon5 from './Images/Sharon5.png';
-import Sharon6 from './Images/Sharon6.png';
-import Sharon7 from './Images/Sharon7.png';
-import Sharon8 from './Images/Sharon8.png';
-import Sharon9 from './Images/Sharon9.png';
-import Sharon10 from './Images/Sharon10.png';
-import Sharon11 from './Images/Sharon11.png';
-import Sharon12 from './Images/Sharon12.png';
-import Sharon13 from './Images/Sharon13.png';
-import Sharon14 from './Images/Sharon14.png';
-import Sharon15 from './Images/Sharon15.png';
-import Sharon16 from './Images/Sharon16.png';
-import Sharon17 from './Images/Sharon17.png';
-import Sharon18 from './Images/Sharon18.png';
-import Sharon19 from './Images/Sharon19.png';
-import Sharon20 from './Images/Sharon20.png';
-import Sharon21 from './Images/Sharon21.png';
-import Sharon22 from './Images/Sharon22.png';
-import Sharon23 from './Images/Sharon23.png';
-import Sharon24 from './Images/Sharon24.png';
-import Sharon25 from './Images/Sharon25.png';
-import Sharon26 from './Images/Sharon26.png';
-import Sharon27 from './Images/Sharon27.png';
-
 
 
 import './BarbieBlogPost.css';
 import HyvorTalkComments from './HyvorTalkComments';
 import TextReveal from './Views/MeetJackie/TextReveal';
 import SubscribeButton from './SubscribeButton';
+
+const Sharon1 = `${process.env.PUBLIC_URL}/Images/Sharon1.png`;
+const Sharon2 = `${process.env.PUBLIC_URL}/Images/Sharon2.png`;
+
+const Sharon4a = `${process.env.PUBLIC_URL}/Images/Sharon4.jpg`;
+const Sharon4 = `${process.env.PUBLIC_URL}/Images/Sharon4.png`;
+const Sharon5 = `${process.env.PUBLIC_URL}/Images/Sharon5.png`;
+const Sharon6 = `${process.env.PUBLIC_URL}/Images/Sharon6.png`;
+const Sharon7 = `${process.env.PUBLIC_URL}/Images/Sharon7.png`;
+const Sharon8 = `${process.env.PUBLIC_URL}/Images/Sharon8.png`;
+const Sharon9 = `${process.env.PUBLIC_URL}/Images/Sharon9.png`;
+const Sharon10 = `${process.env.PUBLIC_URL}/Images/Sharon10.png`;
+const Sharon11 = `${process.env.PUBLIC_URL}/Images/Sharon11.png`;
+const Sharon12 = `${process.env.PUBLIC_URL}/Images/Sharon12.png`;
+const Sharon13 = `${process.env.PUBLIC_URL}/Images/Sharon13.png`;
+const Sharon14 = `${process.env.PUBLIC_URL}/Images/Sharon14.png`;
+const Sharon15 = `${process.env.PUBLIC_URL}/Images/Sharon15.png`;
+const Sharon16 = `${process.env.PUBLIC_URL}/Images/Sharon16.png`;
+const Sharon17 = `${process.env.PUBLIC_URL}/Images/Sharon17.png`;
+const Sharon18 = `${process.env.PUBLIC_URL}/Images/Sharon18.png`;
+const Sharon19 = `${process.env.PUBLIC_URL}/Images/Sharon19.png`;
+const Sharon20 = `${process.env.PUBLIC_URL}/Images/Sharon20.png`;
+const Sharon21 = `${process.env.PUBLIC_URL}/Images/Sharon21.png`;
+const Sharon22 = `${process.env.PUBLIC_URL}/Images/Sharon22.png`;
+const Sharon23 = `${process.env.PUBLIC_URL}/Images/Sharon23.png`;
+const Sharon24 = `${process.env.PUBLIC_URL}/Images/Sharon24.png`;
+const Sharon25 = `${process.env.PUBLIC_URL}/Images/Sharon25.png`;
+const Sharon26 = `${process.env.PUBLIC_URL}/Images/Sharon26.png`;
+const Sharon27 = `${process.env.PUBLIC_URL}/Images/Sharon27.png`;
+
+
 
 
 

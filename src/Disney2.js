@@ -1,59 +1,61 @@
 import React, { useEffect, useRef } from 'react';
 import modifyAnchorTags from './modifyanchortags'; // Update the path as necessaryimport Latte1 from './Images/Latte1.png';
 
-
-import image1 from './Images/Disney1/DisneyWorld.png';
-import image1A from './Images/Disney1/1.JPG';
-import image2 from './Images/Disney1/2.JPG';
-import image3 from './Images/Disney1/3.JPG';
-import image4 from './Images/Disney1/4.JPG';
-import image5 from './Images/Disney1/5.JPG';
-import image6 from './Images/Disney1/6.JPG';
-import image7 from './Images/Disney1/7.JPG';
-import image8 from './Images/Disney1/8.JPG';
-import image9 from './Images/Disney1/9.JPG';
-import image10 from './Images/Disney1/10.jpg';
-import image11 from './Images/Disney1/11.JPG';
-import image12 from './Images/Disney1/12.jpg';
-import image13 from './Images/Disney1/13.JPG';
-import image14 from './Images/Disney1/14.JPG';
-import image15 from './Images/Disney1/16.JPG';
-import image16 from './Images/Disney1/16.JPG';
-import image17 from './Images/Disney1/17.JPG';
-import image18 from './Images/Disney1/18.JPG';
-import image19 from './Images/Disney1/19.JPG';
-import image20 from './Images/Disney1/20.JPG';
-import image21 from './Images/Disney1/21.JPG';
-import image22 from './Images/Disney1/22.JPG';
-import image23 from './Images/Barbie16.png';
-import image24 from './Images/Disney1/22.JPG';
-import image25 from './Images/Disney1/22.JPG';
-import image26 from './Images/Disney1/22.JPG';
-import image27 from './Images/Disney1/22.JPG';
-import image28 from './Images/Disney1/22.JPG';
-import image29 from './Images/Disney1/22.JPG';
-import image30 from './Images/Disney1/22.JPG';
-import image31 from './Images/Disney1/22.JPG';
-import image32 from './Images/Disney1/22.JPG';
-import image33 from './Images/Disney1/22.JPG';
-import image34 from './Images/Disney1/22.JPG';
-import image35 from './Images/Disney1/22.JPG';
-import image36 from './Images/Disney1/22.JPG';
-import image37 from './Images/Disney1/22.JPG';
-import image38 from './Images/Disney1/22.JPG';
-import image39 from './Images/Disney1/22.JPG';
-import image40 from './Images/Disney1/22.JPG';
-
-
-
-
-
-
-
-import Signature from './Images/Barbie16.png';
 import './BarbieBlogPost.css';
 import TextReveal from './Views/MeetJackie/TextReveal';
 import HyvorTalkComments from './HyvorTalkComments';
+
+
+
+
+
+const image1 = `${process.env.PUBLIC_URL}/Images/Disney.png`;
+const image1A = `${process.env.PUBLIC_URL}/Images/Disney1/1.JPG`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Disney1/2.JPG`;
+const image3 = `${process.env.PUBLIC_URL}/Images/Disney1/3.JPG`;
+const image4 = `${process.env.PUBLIC_URL}/Images/Disney1/4.JPG`;
+const image5 = `${process.env.PUBLIC_URL}/Images/Disney1/5.JPG`;
+const image6 = `${process.env.PUBLIC_URL}/Images/Disney1/6.JPG`;
+const image7 = `${process.env.PUBLIC_URL}/Images/Disney1/7.JPG`;
+const image8 = `${process.env.PUBLIC_URL}/Images/Disney1/8.JPG`;
+const image9 = `${process.env.PUBLIC_URL}/Images/Disney1/9.JPG`;
+const image10 = `${process.env.PUBLIC_URL}/Images/Disney1/10.jpg`;
+const image11 = `${process.env.PUBLIC_URL}/Images/Disney1/11.JPG`;
+const image12 = `${process.env.PUBLIC_URL}/Images/Disney1/12.jpg`;
+const image13 = `${process.env.PUBLIC_URL}/Images/Disney1/13.JPG`;
+const image14 = `${process.env.PUBLIC_URL}/Images/Disney1/14.JPG`;
+const image15 = `${process.env.PUBLIC_URL}/Images/Disney1/16.JPG`;
+const image16 = `${process.env.PUBLIC_URL}/Images/Disney1/16.JPG`;
+const image17 = `${process.env.PUBLIC_URL}/Images/Disney1/17.JPG`;
+const image18 = `${process.env.PUBLIC_URL}/Images/Disney1/18.JPG`;
+const image19 = `${process.env.PUBLIC_URL}/Images/Disney1/19.JPG`;
+const image20 = `${process.env.PUBLIC_URL}/Images/Disney1/20.JPG`;
+const image21 = `${process.env.PUBLIC_URL}/Images/Disney1/21.JPG`;
+const image22 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image23 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image24 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image25 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image26 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image27 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image28 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image29 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image30 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image31 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image32 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image33 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image34 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image35 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image36 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image37 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image38 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image39 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const image40 = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+const signature = `${process.env.PUBLIC_URL}/Images/Disney1/22.JPG`;
+
+
+
+
+
 
 
 

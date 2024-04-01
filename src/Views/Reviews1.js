@@ -1,7 +1,8 @@
 import React from 'react';
-import image1 from '../Images/perfume1removed.png';
-import image2 from '../Images/perfume2.png';
-import image3 from '../Images/JickyThumbnail.png';
+// Dynamically importing images from the public folder using process.env.PUBLIC_URL
+const image1 = `${process.env.PUBLIC_URL}/Images/perfume1removed.png`;
+const image2 = `${process.env.PUBLIC_URL}/Images/perfume2.png`;
+const image3 = `${process.env.PUBLIC_URL}/Images/JickyThumbnail.png`;
 
 // Define the link URLs here
 const linkURLs = ['/bonbonreview', '/halfetireview', '/jickyreview'];

@@ -1,88 +1,87 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Quiz1.css';
-
 // Import images
-import aquamarineImage from './Images/Aqua.png';
-import prideAndPrejudiceImage from './Images/Pride.png';
-import sisterhoodImage from './Images/Sister.png';
-import theCliqueImage from './Images/Clique.png';
-import johnTuckerMustDieImage from './Images/JohnTucker.png';
-import breakfastAtTiffanysImage from './Images/Breakfast.png';
+const aquamarineImage = `${process.env.PUBLIC_URL}/Images/Aqua.png`;
+const prideAndPrejudiceImage = `${process.env.PUBLIC_URL}/Images/Pride.png`;
+const sisterhoodImage = `${process.env.PUBLIC_URL}/Images/Sister.png`;
+const theCliqueImage = `${process.env.PUBLIC_URL}/Images/Clique.png`;
+const johnTuckerMustDieImage = `${process.env.PUBLIC_URL}/Images/JohnTucker.png`;
+const breakfastAtTiffanysImage = `${process.env.PUBLIC_URL}/Images/Breakfast.png`;
 // Assume similar imports for other options...
 
 //question2 images 
-import h2Oimage from './Images/h2O.png';
-import bridgerton from './Images/bridgerton.png';
-import alaska from './Images/alaska.png';
-import gossip from './Images/gossip.png';
-import euphoria from './Images/euphoria.png';
-import riverdale from './Images/riverdale.png';
-
+const h2Oimage = `${process.env.PUBLIC_URL}/Images/h2O.png`;
+const bridgerton = `${process.env.PUBLIC_URL}/Images/bridgerton.png`;
+const alaska = `${process.env.PUBLIC_URL}/Images/alaska.png`;
+const gossip = `${process.env.PUBLIC_URL}/Images/gossip.png`;
+const euphoria = `${process.env.PUBLIC_URL}/Images/euphoria.png`;
+const riverdale = `${process.env.PUBLIC_URL}/Images/riverdale.png`;
 
 //question4 images
-import debut from './Images/debut.png';
-import folklore from './Images/folklore.png';
-import red from './Images/red.png';
-import nineteen from './Images/nineteen.png';
-import reputation from './Images/reputation.png';
-import fearless   from './Images/fearless.png';
+const debut = `${process.env.PUBLIC_URL}/Images/debut.png`;
+const folklore = `${process.env.PUBLIC_URL}/Images/folklore.png`;
+const red = `${process.env.PUBLIC_URL}/Images/red.png`;
+const nineteen = `${process.env.PUBLIC_URL}/Images/nineteen.png`;
+const reputation = `${process.env.PUBLIC_URL}/Images/reputation.png`;
+const fearless = `${process.env.PUBLIC_URL}/Images/fearless.png`;
 
 //question5 images
-import hawaii from './Images/hawaii.png';
-import connecticut from './Images/connecticut.png';
-import florida from './Images/florida.png';
-import nyc from './Images/nyc.png';
-import vegas from './Images/vegas.png';
-import california from './Images/california.png';
+const hawaii = `${process.env.PUBLIC_URL}/Images/hawaii.png`;
+const connecticut = `${process.env.PUBLIC_URL}/Images/connecticut.png`;
+const florida = `${process.env.PUBLIC_URL}/Images/florida.png`;
+const nyc = `${process.env.PUBLIC_URL}/Images/nyc.png`;
+const vegas = `${process.env.PUBLIC_URL}/Images/vegas.png`;
+const california = `${process.env.PUBLIC_URL}/Images/california.png`;
 
 //question6 images
-import beach from './Images/beach.png';
-import farmhouse from './Images/farmhouse.png';
-import cozy from './Images/cozy.png';
-import londonFlat from './Images/londonFlat.png';
-import nycLoft from './Images/nycLoft.png';
-import eclectic from './Images/eclectic.png';
+const beach = `${process.env.PUBLIC_URL}/Images/beach.png`;
+const farmhouse = `${process.env.PUBLIC_URL}/Images/farmhouse.png`;
+const cozy = `${process.env.PUBLIC_URL}/Images/cozy.png`;
+const londonFlat = `${process.env.PUBLIC_URL}/Images/londonFlat.png`;
+const nycLoft = `${process.env.PUBLIC_URL}/Images/nycLoft.png`;
+const eclectic = `${process.env.PUBLIC_URL}/Images/eclectic.png`;
 
 //question7 images
-import dive from './Images/dive.png'; 
-import book from './Images/book.png';
-import baking from './Images/baking.png';
-import retail from './Images/retail.png';
-import club from './Images/club.png';
-import scrapbooking from './Images/scrapbooking.png';
+const dive = `${process.env.PUBLIC_URL}/Images/dive.png`; 
+const book = `${process.env.PUBLIC_URL}/Images/book.png`;
+const baking = `${process.env.PUBLIC_URL}/Images/baking.png`;
+const retail = `${process.env.PUBLIC_URL}/Images/retail.png`;
+const club = `${process.env.PUBLIC_URL}/Images/club.png`;
+const scrapbooking = `${process.env.PUBLIC_URL}/Images/scrapbooking.png`;
 
 //question8 images
-import sea from './Images/sea.png';
-import earthy from './Images/earthy.png';
-import seventies from './Images/seventies.png';
-import oldmoney from './Images/oldmoney.png';
-import dark from './Images/dark.png';
-import vintage from './Images/vintage.png';
+const sea = `${process.env.PUBLIC_URL}/Images/sea.png`;
+const earthy = `${process.env.PUBLIC_URL}/Images/earthy.png`;
+const seventies = `${process.env.PUBLIC_URL}/Images/seventies.png`;
+const oldmoney = `${process.env.PUBLIC_URL}/Images/oldmoney.png`;
+const dark = `${process.env.PUBLIC_URL}/Images/dark.png`;
+const vintage = `${process.env.PUBLIC_URL}/Images/vintage.png`;
 
 //question9 images
-import pearly from './Images/pearly.png';
-import pasteltips from './Images/pasteltips.png';
-import french from './Images/french.png';
-import pink from './Images/pink.png';
-import cherry from './Images/cherry.png';
-import black from './Images/black.png';
+const pearly = `${process.env.PUBLIC_URL}/Images/pearly.png`;
+const pasteltips = `${process.env.PUBLIC_URL}/Images/pasteltips.png`;
+const french = `${process.env.PUBLIC_URL}/Images/french.png`;
+const pink = `${process.env.PUBLIC_URL}/Images/pink.png`;
+const cherry = `${process.env.PUBLIC_URL}/Images/cherry.png`;
+const black = `${process.env.PUBLIC_URL}/Images/black.png`;
 
 //question10 images
-import rose from './Images/rose.png';
-import balm from './Images/balm.png';
-import compact from './Images/compact.png';
-import dior from './Images/dior.png';
-import bronzer from './Images/bronzer.png';
-import blackeye from './Images/blackeye.png';
+const rose = `${process.env.PUBLIC_URL}/Images/rose.png`;
+const balm = `${process.env.PUBLIC_URL}/Images/balm.png`;
+const compact = `${process.env.PUBLIC_URL}/Images/compact.png`;
+const dior = `${process.env.PUBLIC_URL}/Images/dior.png`;
+const bronzer = `${process.env.PUBLIC_URL}/Images/bronzer.png`;
+const blackeye = `${process.env.PUBLIC_URL}/Images/blackeye.png`;
 
 //question11 images
-import chanel from './Images/chanel.png';
-import beachbag from './Images/beachbag.png';
-import chilltote from './Images/chilltote.png';
-import itgirlbag from './Images/itgirlbag.png';
-import floral from './Images/floral.png';
-import custom from './Images/custom.png';
+const chanel = `${process.env.PUBLIC_URL}/Images/chanel.png`;
+const beachbag = `${process.env.PUBLIC_URL}/Images/beachbag.png`;
+const chilltote = `${process.env.PUBLIC_URL}/Images/chilltote.png`;
+const itgirlbag = `${process.env.PUBLIC_URL}/Images/itgirlbag.png`;
+const floral = `${process.env.PUBLIC_URL}/Images/floral.png`;
+const custom = `${process.env.PUBLIC_URL}/Images/custom.png`;
+
 
 
 

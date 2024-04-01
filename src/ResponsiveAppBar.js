@@ -14,7 +14,7 @@ import {
   Typography,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu'; // Importing MenuIcon for the hamburger menu
-import logo from './Images/jackielogo.png'; // Ensure this path is correct for your project structure
+const logo = `${process.env.PUBLIC_URL}/Images/jackielogo.png`;
 
 const pages = [
   { name: 'Home', path: '/' },

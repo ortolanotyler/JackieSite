@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Tutorial from './viewComponents/Tutorial';
-import Barbie from '../Images/BarbieTopHero.png';
+const Barbie = `${process.env.PUBLIC_URL}/Images/BarbieTopHero.png`;
 
 
 

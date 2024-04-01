@@ -1,27 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import modifyAnchorTags from './modifyanchortags'; // Update the path as necessary
-import Sophia1 from './Images/Sophia1.png';
-import Sophia2 from './Images/Sophia2.png';
-import Sophia3 from './Images/Sophia3.png';
-import Sophia4 from './Images/Sophia4.png';
-import Sophia5 from './Images/Sophia5.png';
-import Sophia6 from './Images/Sophia6.png';
-import Sophia7 from './Images/Sophia7.png';
-import Sophia8 from './Images/Sophia8.png';
-import Sophia9 from './Images/Sophia9.png';
-import Sophia10 from './Images/Sophia10.png';
-import Sophia11 from './Images/Sophia11.png';
-import Sophia12 from './Images/Sophia12.png';
-import Sophia13 from './Images/Sophia13.png';
-import Sophia14 from './Images/Sophia14.png';
-import Sophia15 from './Images/Sophia15.png';
-import Sophia16 from './Images/Sophia16.png';
-import Sophia17 from './Images/Sophia17.png';
-import Sophia18 from './Images/Sophia18.png';
-import Sophia19 from './Images/Sophia19.png';
-import Sophia20 from './Images/Sophia20.png';
-import Sophia21 from './Images/Sophia21.png';
-import Sophia22 from './Images/Sophia22.png';
 import TextReveal from './Views/MeetJackie/TextReveal';
 
 
@@ -29,6 +7,31 @@ import TextReveal from './Views/MeetJackie/TextReveal';
 
 import './BarbieBlogPost.css';
 import HyvorTalkComments from './HyvorTalkComments';
+
+const Sophia1 = `${process.env.PUBLIC_URL}/Images/Sophia1.png`;
+const Sophia2 = `${process.env.PUBLIC_URL}/Images/Sophia2.png`;
+const Sophia3 = `${process.env.PUBLIC_URL}/Images/Sophia3.png`;
+const Sophia4 = `${process.env.PUBLIC_URL}/Images/Sophia4.png`;
+const Sophia5 = `${process.env.PUBLIC_URL}/Images/Sophia5.png`;
+const Sophia6 = `${process.env.PUBLIC_URL}/Images/Sophia6.png`;
+const Sophia7 = `${process.env.PUBLIC_URL}/Images/Sophia7.png`;
+const Sophia8 = `${process.env.PUBLIC_URL}/Images/Sophia8.png`;
+const Sophia9 = `${process.env.PUBLIC_URL}/Images/Sophia9.png`;
+const Sophia10 = `${process.env.PUBLIC_URL}/Images/Sophia10.png`;
+const Sophia11 = `${process.env.PUBLIC_URL}/Images/Sophia11.png`;
+const Sophia12 = `${process.env.PUBLIC_URL}/Images/Sophia12.png`;
+const Sophia13 = `${process.env.PUBLIC_URL}/Images/Sophia13.png`;
+const Sophia14 = `${process.env.PUBLIC_URL}/Images/Sophia14.png`;
+const Sophia15 = `${process.env.PUBLIC_URL}/Images/Sophia15.png`;
+const Sophia16 = `${process.env.PUBLIC_URL}/Images/Sophia16.png`;
+const Sophia17 = `${process.env.PUBLIC_URL}/Images/Sophia17.png`;
+const Sophia18 = `${process.env.PUBLIC_URL}/Images/Sophia18.png`;
+const Sophia19 = `${process.env.PUBLIC_URL}/Images/Sophia19.png`;
+const Sophia20 = `${process.env.PUBLIC_URL}/Images/Sophia20.png`;
+const Sophia21 = `${process.env.PUBLIC_URL}/Images/Sophia21.png`;
+const Sophia22 = `${process.env.PUBLIC_URL}/Images/Sophia22.png`;
+
+
 
 
 

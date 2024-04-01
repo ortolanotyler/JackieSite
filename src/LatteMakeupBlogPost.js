@@ -1,27 +1,27 @@
 import React, { useEffect, useRef } from 'react';
 import modifyAnchorTags from './modifyanchortags'; // Update the path as necessaryimport Latte1 from './Images/Latte1.png';
-
-import Latte1 from './Images/Latte1.png';
-import Latte2 from './Images/Latte2.png';
-import Latte3 from './Images/Latte3.png';
-import Latte4 from './Images/Latte4.png';
-import Latte5 from './Images/Latte5.png';
-import Latte6 from './Images/Latte6.png';
-import Latte7 from './Images/Latte7.png';
-import Latte8 from './Images/Latte8.png';
-import Latte9 from './Images/Latte9.png';
-import Latte10 from './Images/Latte10.png';
-import Latte11 from './Images/Latte11.png';
-import Latte12 from './Images/Latte12.png';
-import Latte13 from './Images/Latte13.png';
-import Latte14 from './Images/Latte14.png';
-import Latte15 from './Images/Latte15.png';
-import LatteMissing from './Images/LatteMissing.png';
-import Latte16 from './Images/Barbie16.png';
 import SubscribeButton from './SubscribeButton';
 import './BarbieBlogPost.css';
 import TextReveal from './Views/MeetJackie/TextReveal';
 import HyvorTalkComments from './HyvorTalkComments';
+
+const Latte1 = `${process.env.PUBLIC_URL}/Images/Latte1.png`;
+const Latte2 = `${process.env.PUBLIC_URL}/Images/Latte2.png`;
+const Latte3 = `${process.env.PUBLIC_URL}/Images/Latte3.png`;
+const Latte4 = `${process.env.PUBLIC_URL}/Images/Latte4.png`;
+const Latte5 = `${process.env.PUBLIC_URL}/Images/Latte5.png`;
+const Latte6 = `${process.env.PUBLIC_URL}/Images/Latte6.png`;
+const Latte7 = `${process.env.PUBLIC_URL}/Images/Latte7.png`;
+const Latte8 = `${process.env.PUBLIC_URL}/Images/Latte8.png`;
+const Latte9 = `${process.env.PUBLIC_URL}/Images/Latte9.png`;
+const Latte10 = `${process.env.PUBLIC_URL}/Images/Latte10.png`;
+const Latte11 = `${process.env.PUBLIC_URL}/Images/Latte11.png`;
+const Latte12 = `${process.env.PUBLIC_URL}/Images/Latte12.png`;
+const Latte13 = `${process.env.PUBLIC_URL}/Images/Latte13.png`;
+const Latte14 = `${process.env.PUBLIC_URL}/Images/Latte14.png`;
+const Latte15 = `${process.env.PUBLIC_URL}/Images/Latte15.png`;
+const LatteMissing = `${process.env.PUBLIC_URL}/Images/LatteMissing.png`;
+const Latte16 = `${process.env.PUBLIC_URL}/Images/Barbie16.png`;
 
 
 

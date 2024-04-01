@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import TextReveal from '../Views/MeetJackie/TextReveal';
-import jicky1 from '../Images/jicky1.png';
-import jicky2 from '../Images/jicky2.png';
-import jicky3 from '../Images/jicky3.png';
-import jicky4 from '../Images/jicky4.png';
-import jicky5 from '../Images/jicky5.png';
-import jicky6 from '../Images/jicky6.png';
+const jicky1 = `${process.env.PUBLIC_URL}/Images/jicky1.png`;
+const jicky2 = `${process.env.PUBLIC_URL}/Images/jicky2.png`;
+const jicky3 = `${process.env.PUBLIC_URL}/Images/jicky3.png`;
+const jicky4 = `${process.env.PUBLIC_URL}/Images/jicky4.png`;
+const jicky5 = `${process.env.PUBLIC_URL}/Images/jicky5.png`;
+const jicky6 = `${process.env.PUBLIC_URL}/Images/jicky6.png`;
 
 const Card = ({ blogContent }) => {
     return (

@@ -1,21 +1,24 @@
 import React from 'react';
-import Armani1 from './Images/Armani1.png';
-import Armani2 from './Images/Armani2.png';
-import Armani3 from './Images/Armani3.png';
-import Armani4 from './Images/Armani4.png';
-import Armani5 from './Images/Armani5.png';
-import Armani6 from './Images/Armani6.png';
-import Armani7 from './Images/Armani7.png';
-import Armani8 from './Images/Armani8.png';
-import Armani9 from './Images/Armani9.png';
-import Armani10 from './Images/Armani10.png';
-import Armani11 from './Images/Armani11.png';
-import Armani12 from './Images/Armani12.png';
-import Armani14 from './Images/Armani14.png';
-import Armani15 from './Images/Armani15.png';
-
-
 import './BarbieBlogPost.css';
+
+const Armani1 = `${process.env.PUBLIC_URL}/Images/Armani1.png`;
+const Armani2 = `${process.env.PUBLIC_URL}/Images/Armani2.png`;
+const Armani3 = `${process.env.PUBLIC_URL}/Images/Armani3.png`;
+const Armani4 = `${process.env.PUBLIC_URL}/Images/Armani4.png`;
+const Armani5 = `${process.env.PUBLIC_URL}/Images/Armani5.png`;
+const Armani6 = `${process.env.PUBLIC_URL}/Images/Armani6.png`;
+const Armani7 = `${process.env.PUBLIC_URL}/Images/Armani7.png`;
+const Armani8 = `${process.env.PUBLIC_URL}/Images/Armani8.png`;
+const Armani9 = `${process.env.PUBLIC_URL}/Images/Armani9.png`;
+const Armani10 = `${process.env.PUBLIC_URL}/Images/Armani10.png`;
+const Armani11 = `${process.env.PUBLIC_URL}/Images/Armani11.png`;
+const Armani12 = `${process.env.PUBLIC_URL}/Images/Armani12.png`;
+const Armani14 = `${process.env.PUBLIC_URL}/Images/Armani14.png`;
+const Armani15 = `${process.env.PUBLIC_URL}/Images/Armani15.png`;
+
+
+
+
 
 const Card = ({ blogContent }) => {
     return (

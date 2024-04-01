@@ -3,10 +3,10 @@ import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
-import Barbie1 from '../../Images/Barbie1.jpg';
-import SophiaSquareThumbnailForArticle from '../../Images/SophiaSquareThumbnailforArticle.jpg';
+const Barbie1 = `${process.env.PUBLIC_URL}/Images/Barbie1.jpg`;
+const SophiaSquareThumbnailForArticle = `${process.env.PUBLIC_URL}/Images/SophiaSquareThumbnailforArticle.jpg`;
 
-// Import other images similarly for each item...
+
 
 export default function MasonryImageList() {
   // Define your item data with images and titles

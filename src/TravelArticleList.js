@@ -1,10 +1,12 @@
 import React from 'react';
 import TravelArticleCard from './TravelArticleCard';
 import "./TravelArticleList.css";
-import image1 from './Images/Disney1Thumbnail.png';
-import image2 from './Images/Disney2Thumbnail.png';
+
 import TextReveal from './Views/MeetJackie/TextReveal';
-import RotatingText from './RotatingText';
+
+const image1 = `${process.env.PUBLIC_URL}/Images/Disney1Thumbnail.png`;
+const image2 = `${process.env.PUBLIC_URL}/Images/Disney1Thumbnail.png`;
+
 
 const articles = [
     {

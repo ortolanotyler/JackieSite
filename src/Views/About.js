@@ -1,14 +1,18 @@
 import React from 'react';
-import AboutEmily from '../Images/emily1.png';
 import TextReveal from './MeetJackie/TextReveal';
 import FanArt from '../FanArtGallery';
-import leftImage from '../Images/Footer5.jpg';
 import QuoteBanner from './QuoteBanner2';
 import ContactForm from './viewComponents/ContactForm';
 import BrandCarousel from './viewComponents/BrandCarousel';
 import styles from './About.module.css'; // Ensure your CSS module is correctly set up
 import RotatingText from '../RotatingText';
 import FirstPageIcon from '@mui/icons-material/FirstPage';
+
+// Images imported dynamically from the public folder using process.env.PUBLIC_URL
+const AboutEmily = `${process.env.PUBLIC_URL}/Images/emily1.png`;
+const leftImage = `${process.env.PUBLIC_URL}/Images/Footer5.jpg`;
+
+
 
 const About = () => {
   return (
