@@ -1,32 +1,35 @@
 import React, { useState } from 'react';
 import './FanArtGallery.css'; // Assuming you move your SCSS into a separate file
-const image1 = `${process.env.PUBLIC_URL}/FanArtImages/1.jpg`;
-const image2 = `${process.env.PUBLIC_URL}/FanArtImages/2.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/FanArtImages/3.jpg`;
-const image4 = `${process.env.PUBLIC_URL}/FanArtImages/4.jpg`;
-const image5 = `${process.env.PUBLIC_URL}/FanArtImages/5.jpg`;
-const image6 = `${process.env.PUBLIC_URL}/FanArtImages/6.jpg`;
-const image7 = `${process.env.PUBLIC_URL}/FanArtImages/7.jpg`;
-const image8 = `${process.env.PUBLIC_URL}/FanArtImages/8.jpg`;
-const image9 = `${process.env.PUBLIC_URL}/FanArtImages/9.jpg`;
-const image10 = `${process.env.PUBLIC_URL}/FanArtImages/10.jpg`;
-const image11 = `${process.env.PUBLIC_URL}/FanArtImages/11.jpg`;
-const image12 = `${process.env.PUBLIC_URL}/FanArtImages/12.jpg`;
-const image13 = `${process.env.PUBLIC_URL}/FanArtImages/13.jpg`;
-const image14 = `${process.env.PUBLIC_URL}/FanArtImages/14.jpg`;
-const image15 = `${process.env.PUBLIC_URL}/FanArtImages/15.jpg`;
-const image16 = `${process.env.PUBLIC_URL}/FanArtImages/16.jpg`;
-const image17 = `${process.env.PUBLIC_URL}/FanArtImages/17.jpg`;
-const image18 = `${process.env.PUBLIC_URL}/FanArtImages/18.jpg`;
-const image19 = `${process.env.PUBLIC_URL}/FanArtImages/19.jpg`;
-const image20 = `${process.env.PUBLIC_URL}/FanArtImages/20.jpg`;
-const image21 = `${process.env.PUBLIC_URL}/FanArtImages/21.jpg`;
-const image22 = `${process.env.PUBLIC_URL}/FanArtImages/22.jpg`;
-const image23 = `${process.env.PUBLIC_URL}/FanArtImages/23.jpg`;
-const image24 = `${process.env.PUBLIC_URL}/FanArtImages/24.jpg`;
-const image25 = `${process.env.PUBLIC_URL}/FanArtImages/25.jpg`;
-const image26 = `${process.env.PUBLIC_URL}/FanArtImages/26.jpg`;
-const image27 = `${process.env.PUBLIC_URL}/FanArtImages/27.jpg`;
+const image1 = `${process.env.PUBLIC_URL}/Images/1.jpg`;
+const image2 = `${process.env.PUBLIC_URL}/Images/2.jpg`;
+const image3 = `${process.env.PUBLIC_URL}/Images/3.jpg`;
+const image4 = `${process.env.PUBLIC_URL}/Images/4.jpg`;
+const image5 = `${process.env.PUBLIC_URL}/Images/5.jpg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/6.jpg`;
+const image7 = `${process.env.PUBLIC_URL}/Images/7.jpg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/8.jpg`;
+const image9 = `${process.env.PUBLIC_URL}/Images/9.jpg`;
+const image10 = `${process.env.PUBLIC_URL}/Images/10.jpg`;
+const image11 = `${process.env.PUBLIC_URL}/Images/11.jpg`;
+const image12 = `${process.env.PUBLIC_URL}/Images/12.jpg`;
+const image13 = `${process.env.PUBLIC_URL}/Images/13.jpg`;
+const image14 = `${process.env.PUBLIC_URL}/Images/14.jpg`;
+const image15 = `${process.env.PUBLIC_URL}/Images/15.jpg`;
+const image16 = `${process.env.PUBLIC_URL}/Images/16.jpg`;
+const image17 = `${process.env.PUBLIC_URL}/Images/17.jpg`;
+const image18 = `${process.env.PUBLIC_URL}/Images/18.jpg`;
+const image19 = `${process.env.PUBLIC_URL}/Images/19.jpg`;
+const image20 = `${process.env.PUBLIC_URL}/Images/20.jpg`;
+const image21 = `${process.env.PUBLIC_URL}/Images/21.jpg`;
+const image22 = `${process.env.PUBLIC_URL}/Images/22.jpg`;
+const image23 = `${process.env.PUBLIC_URL}/Images/23.jpg`;
+const image24 = `${process.env.PUBLIC_URL}/Images/24.jpg`;
+const image25 = `${process.env.PUBLIC_URL}/Images/25.jpg`;
+const image26 = `${process.env.PUBLIC_URL}/Images/26.jpg`;
+const image27 = `${process.env.PUBLIC_URL}/Images/27.jpg`;
+
+
+
 const bench = `${process.env.PUBLIC_URL}/Images/bench.png`;
 
 
