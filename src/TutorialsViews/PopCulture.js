@@ -1,8 +1,8 @@
 import React from 'react';
 import './aaa.css'; // Importing the same CSS file as the previous component
 
-
 import TextReveal from '../Views/MeetJackie/TextReveal';
+
 const image2 = `${process.env.PUBLIC_URL}/Images/LatteMakeupHero.png`;
 const image3 = `${process.env.PUBLIC_URL}/Images/patmcgrath1.jpeg`;
 const image5 = `${process.env.PUBLIC_URL}/Images/SugarPlum1.jpg`;
@@ -50,7 +50,7 @@ const cardsData = [
 const Card = ({ link, image, alt, title, description }) => {
   return (
     <li className="card">
-      <a className="card-image" href={link} style={{ backgroundImage: `url(${image})` }}>
+      <a className="card-image" href={link}>
         <img src={image} alt={alt} />
       </a>
       <div className="card-description">

@@ -11,8 +11,6 @@ const sophia = `${process.env.PUBLIC_URL}/Images/SophiaSquareThumbnailforArticle
 const ina = `${process.env.PUBLIC_URL}/Images/BalkeThumb.jpeg`;
 const sharon = `${process.env.PUBLIC_URL}/Images/IconicThumbnail.png`;
 
-
-
 const cardsData = [
   {
     link: "/sharontate",
@@ -66,34 +64,26 @@ const cardsData = [
   {
     link: "/iconicsharon",
     image: sharon,
-    alt: "1960s legend Ina Balke European chic makeup tutorial",
+    alt: "Iconic Sharon Tate makeup tutorial",
     title: "SHARON TATE ICON",
-   
+    description: "", // Provided an empty description to keep the structure consistent.
   },
 ];
-
-
-
-
 
 const Card = ({ link, image, alt, title, description }) => {
   return (
     <li className="card">
-      <a className="card-image" href={link} style={{ backgroundImage: `url(${image})` }}>
+      <a className="card-image" href={link}>
         <img src={image} alt={alt} />
       </a>
       <div className="card-description">
-        <a href={link}>
-          <h2>{title}</h2>
-      
-        </a>
-        {/* Button added below */}
+        <a href={link}><h2>{title}</h2></a>
+        {description && <p>{description}</p>} {/* Conditional rendering of description */}
         <a href={link} className="read-here-btn">Read Here</a>
       </div>
     </li>
   );
 };
-
 
 const Slider1 = () => {
   return (

@@ -2,7 +2,6 @@ import React from 'react';
 import './aaa.css';
 
 // Importing the images
-const image1 = `${process.env.PUBLIC_URL}/Images/Sophia1.png`;
 const image2 = `${process.env.PUBLIC_URL}/Images/SophiaSquareThumbnailforArticle.jpg`;
 const image3 = `${process.env.PUBLIC_URL}/Images/Vintage2Thumbnail.jpg`;
 const balke = `${process.env.PUBLIC_URL}/Images/BalkeThumb.jpeg`;
@@ -43,7 +42,7 @@ const cardsData = [
 const Card = ({ link, image, alt, title, description }) => {
   return (
     <li className="card">
-      <a className="card-image" href={link} style={{ backgroundImage: `url(${image})` }}>
+      <a className="card-image" href={link}>
         <img src={image} alt={alt} />
       </a>
       <div className="card-description">

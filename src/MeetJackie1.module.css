@@ -1,0 +1,61 @@
+/* MeetJackieHero.module.css */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #fdf6f0;
+  color: #333;
+  max-height: 300px;
+}
+
+.heroContent, .heroImage {
+  flex: 1 1 auto;
+  max-width: 45%;
+}
+
+.heroText h1 {
+  font-size: 2rem;
+  color: #222;
+}
+
+.heroText p {
+  margin-bottom: 10px;
+  line-height: 1.4;
+  font-size: 0.95rem;
+}
+
+.heroTextLink {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #c02f1d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.heroTextLink:hover {
+  background-color: #a52810;
+}
+
+.heroImagePrimary {
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.lipstickImage {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 80px;
+  transform: rotate(20deg);
+  transition: transform 0.3s ease;
+}
+
+.lipstickImage:hover {
+  transform: rotate(0deg);
+}

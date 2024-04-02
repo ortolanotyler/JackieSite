@@ -7,9 +7,6 @@ const image3 = `${process.env.PUBLIC_URL}/Images/SophiaSquareThumbnailforArticle
 const image7 = `${process.env.PUBLIC_URL}/Images/SharonThumnail.jpg`;
 const sharon = `${process.env.PUBLIC_URL}/Images/IconicThumbnail.png`;
 
-
-
-
 const cardsData = [
   {
     link: "/sharontate",
@@ -38,7 +35,7 @@ const cardsData = [
 const Card = ({ link, image, alt, title, description }) => {
   return (
     <li className="card">
-      <a className="card-image" href={link} style={{ backgroundImage: `url(${image})` }}>
+      <a className="card-image" href={link}>
         <img src={image} alt={alt} />
       </a>
       <div className="card-description">

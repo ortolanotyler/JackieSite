@@ -50,7 +50,7 @@ const cardsData = [
 const Card = ({ link, image, alt, title, description }) => {
   return (
     <li className="card">
-      <a className="card-image" href={link} style={{ backgroundImage: `url(${image})` }}>
+      <a className="card-image" href={link}>
         <img src={image} alt={alt} />
       </a>
       <div className="card-description">

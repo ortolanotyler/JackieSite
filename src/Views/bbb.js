@@ -1,63 +1,91 @@
 import React from 'react';
 import './aaa.css';
 
-const image1 = `${process.env.PUBLIC_URL}/Images/LatteMakeupHero.png`;
-const image2 = `${process.env.PUBLIC_URL}/Images/SugarPlum1.jpg`;
-const image3 = `${process.env.PUBLIC_URL}/Images/LanaThumbnail.jpg`;
-const image4 = `${process.env.PUBLIC_URL}/Images/patmcgrath1.jpeg`;
-
+// Importing the images
+const image2 = `${process.env.PUBLIC_URL}/Images/LatteMakeupHero.png`;
+const image5 = `${process.env.PUBLIC_URL}/Images/SugarPlum1.jpg`;
+const image6 = `${process.env.PUBLIC_URL}/Images/LanaThumbnail.jpg`;
+const image7 = `${process.env.PUBLIC_URL}/Images/SharonThumnail.jpg`;
+const image8 = `${process.env.PUBLIC_URL}/Images/victoriathumbnail.jpeg`;
+const sophia = `${process.env.PUBLIC_URL}/Images/SophiaSquareThumbnailforArticle.jpg`;
+const ina = `${process.env.PUBLIC_URL}/Images/BalkeThumb.jpeg`;
+const sharon = `${process.env.PUBLIC_URL}/Images/IconicThumbnail.png`;
 
 const cardsData = [
   {
+    link: "/sharontate",
+    image: image7,
+    alt: "Sharon Tate in iconic 1960s bridal makeup and attire",
+    title: "Sharon Tate",
+    description: "Iconic '60s Bridal",
+  },
+  {
     link: "/latteMakeup",
-    image: image1,
-    alt: "Latte",
-    title: "LATTE MAKEUP",
-    description: "Think warm, cozy, fall!"
+    image: image2,
+    alt: "Warm and cozy latte-inspired fall makeup look",
+    title: "Latte Makeup",
+    description: "Think warm, cozy, fall!",
   },
   {
     link: "/sugarplumfairy",
-    image: image2,
-    alt: "Sugar Plum",
-    title: "SUGAR PLUM",
-    description: "Trend Report"
+    image: image5,
+    alt: "Sugar Plum Fairy makeup trend report",
+    title: "Sugar Plum Fairy",
+    description: "Trend Report",
   },
   {
     link: "/lanablog",
-    image: image3,
-    alt: "Lana",
+    image: image6,
+    alt: "SKIMS collaboration with Lana for Valentine's Day makeup",
     title: "SKIMS X Lana",
-    description: "V-Day Makeup"
+    description: "V-Day Makeup",
   },
   {
-    link: "/patmcgrath",
-    image: image4,
-    alt: "Pat McGrath",
-    title: "Pat McGrath",
-    description: "Viral Glossy Craze"
+    link: "/victoriasecret",
+    image: image8,
+    alt: "Victoria's Secret fashion show 2014 vibes",
+    title: "Victoria's Secret",
+    description: "2014 vibes are so back",
   },
-  // ... add more card objects as needed ...
+  {
+    link: "/sophialoren",
+    image: sophia,
+    alt: "Sophia Loren, the charismatic queen of classic cinema",
+    title: "Sophia Loren",
+    description: "The Charismatic Queen",
+  },
+  {
+    link: "/balkeblog",
+    image: ina,
+    alt: "1960s legend Ina Balke European chic makeup tutorial",
+    title: "60's Legend Ina Balke",
+    description: "European Chique",
+  },
+  {
+    link: "/iconicsharon",
+    image: sharon,
+    alt: "Iconic Sharon Tate makeup tutorial",
+    title: "SHARON TATE ICON",
+    description: "", // Provided an empty description to keep the structure consistent.
+  },
 ];
 
 const Card = ({ link, image, alt, title, description }) => {
   return (
     <li className="card">
-      <a className="card-image" href={link} style={{ backgroundImage: `url(${image})` }}>
+      <a className="card-image" href={link}>
         <img src={image} alt={alt} />
       </a>
       <div className="card-description">
-        <a href={link}>
-          <h2>{title}</h2>
-          <p>{description}</p>
-        </a>
-        {/* "Read Here" button added */}
+        <a href={link}><h2>{title}</h2></a>
+        {description && <p>{description}</p>} {/* Conditional rendering of description */}
         <a href={link} className="read-here-btn">Read Here</a>
       </div>
     </li>
   );
 };
 
-const Slider2 = () => {
+const Slider1 = () => {
   return (
     <ul className="card-list">
       {cardsData.map((card, index) => (
@@ -74,4 +102,4 @@ const Slider2 = () => {
   );
 };
 
-export default Slider2;
+export default Slider1;

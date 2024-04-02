@@ -5,11 +5,14 @@ import './VintageVibesMerch.css'; // Assume you have a CSS file for styles
 
 const VintageVibesMerch = () => {
     return (
-        <div className="merch-container">
-            <TextReveal text='VINTAGE VIBES MERCH' />
+        <div className="merch-container">  
+<div>
+<TextReveal text='VINTAGE VIBES MERCH' />
+     
             <TeeSpring />
         </div>
-    );
+       </div>
+    )
 };
 
 export default VintageVibesMerch;
