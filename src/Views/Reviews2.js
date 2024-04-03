@@ -5,7 +5,7 @@ const image2 = `${process.env.PUBLIC_URL}/Images/perfume2.png`;
 const image3 = `${process.env.PUBLIC_URL}/Images/JickyThumbnail.png`;
 
 // Define the link URLs here
-const linkURLs = ['/home1', '/home2', '/home3'];
+const linkURLs = ['/bonbonreview', '/halfetireview', '/jickyreview'];
 
 const Reviews2 = () => {
   const cardContainerStyle = {
@@ -22,7 +22,6 @@ const Reviews2 = () => {
     width: 'calc(25% - 40px)', // Make images smaller and adjust based on desired padding/margin
     paddingBottom: 'calc(25% - 40px)', // Adjust padding-bottom to maintain square aspect ratio
     margin: '20px', // Space around each card
-    overflow: 'hidden', // Hide overflow to prevent image cut-off
   };
 
   const imageStyleBase = {
