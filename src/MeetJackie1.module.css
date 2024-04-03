@@ -5,7 +5,7 @@
   justify-content: space-around;
   padding: 20px;
   background-color: #fdf6f0;
-  color: #333;
+  color: #745B4F;
   max-height: 300px;
 }
 
@@ -16,7 +16,7 @@
 
 .heroText h1 {
   font-size: 2rem;
-  color: #222;
+  color: #745B4F;
 }
 
 .heroText p {
@@ -25,11 +25,12 @@
   font-size: 0.95rem;
 }
 
+/* MeetJackieHero.module.css */
 .heroTextLink {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 2px;
   padding: 8px 16px;
-  background-color: #c02f1d;
+  background-color: #745B4F; /* Change background color to yellow */
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -37,7 +38,7 @@
 }
 
 .heroTextLink:hover {
-  background-color: #a52810;
+  background-color: #ffa000; /* Change hover color to a darker shade of yellow */
 }
 
 .heroImagePrimary {

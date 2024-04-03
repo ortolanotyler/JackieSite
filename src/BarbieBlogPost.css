@@ -32,7 +32,7 @@
     text-align: center; /* Center text */
     margin: 0 auto 2rem; /* Center cards horizontally and add space between cards */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to each card */
-    padding: 20px; /* Padding inside each card */
+    padding: 2rem; /* Padding inside each card */
 }
 
 /* Styles for images */
@@ -52,7 +52,7 @@
 @media (max-width: 768px) {
     .container {
         max-width: 95%; /* Allow more width on smaller screens */
-        padding: 10px; /* Adjust padding for smaller screens */
+        padding: 2em; /* Adjust padding for smaller screens */
     }
     .card {
         margin-bottom: 1.5rem; /* Less space between cards on smaller screens */

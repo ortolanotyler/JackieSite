@@ -48,9 +48,7 @@ function HomePage() {
 </Grid>
 
         <Grid item xs={12}>
-          <Paper sx={{ backgroundColor: '#EBE8E4 ', fontFamily: 'GFS Didot, serif', borderRadius: '4px', color: "#745B4F", textAlign: 'center', padding: '1rem' }}>
-            <div><MeetJackieHero /></div>
-          </Paper>
+            <MeetJackieHero />
         </Grid>
 
     

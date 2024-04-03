@@ -13,7 +13,6 @@ import MyStyle from './Views/MyStyle';
 import Reviews from './Views/Reviews';
 import Vlogs from './Vlogs.js';
 import Confessions from './Views/Confessions';
-import HotTrendsView from './Views/TrendsView.js';
 import PopCultureView from './Views/PopCulture.js';
 import CustomizedSteppers from './Stepper.js';
 import FindYourStyleQuiz from './Views/findYourStyle.js';
@@ -33,7 +32,6 @@ import PopCulture from './TutorialsViews/PopCulture.js';
 import Quiz1 from './Quiz1.js';
 import ArmaniReview from './ArmaniReview.js';
 import BalkeBlog from './BalkeBlog.js';
-import TriangleImages from './TriangleImages.js';
 import Disney1Post from './Disney1.js';
 import Disney2Post from './Disney2.js';
 import BonBonReview from './PerfumesReviews/BonBonReview.js';
@@ -42,6 +40,7 @@ import JickyReview from './PerfumesReviews/JickyReview.js';
 import TravelArticleList from './TravelArticleList.js';
 import Slider2 from './Views/bbb.js';
 import SharonIconicPost from './SharonIconicPost.js';
+import TravelGrid from './TravelGrid.js';
 
 
 
@@ -110,7 +109,7 @@ function App() {
          {/* BRAINSTORMING */}  
             <Route path="/FanArt" element={<FanArt />} />
             <Route path="/a" element={<TravelArticleList articles={articles} />} />
-
+            <Route path="/b" element={<TravelGrid />} />
 
 
 
