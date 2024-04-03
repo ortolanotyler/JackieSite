@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import { TextField } from 'formik-mui';
 import Button from '@mui/material/Button';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Grid from '@mui/material/Grid';
 
 // Define a validation schema using Yup
 const SignupSchema = Yup.object().shape({
@@ -15,6 +16,7 @@ const SignupSchema = Yup.object().shape({
 const theme = createTheme({
   typography: {
     button: {
+      justifyContent: 'center',
       fontFamily: 'GFS Didot, serif',
       fontSize: '24px',
       fontWeight: 'bold',
@@ -56,37 +58,47 @@ export default function EmailSubscribe() {
             component={Form}
             sx={{
               backgroundColor: 'white',
-              '& > :not(style)': { m: 1, width: '50ch' },
+              display: 'center',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              height: '20vh', // Center vertically on the page
             }}
             noValidate
             autoComplete="on"
           >
-            <Field
-              component={TextField}
-              name="email"
-              type="email"
-              label="Email"
-              variant="standard"
-              helperText={touched.email ? errors.email : ""}
-              error={touched.email && Boolean(errors.email)}
-              style={{
-                backgroundColor: 'white',
-                borderRadius: '5px',
-              }}
-            />
-            <Button
-              type="submit"
-              variant="contained"
-              disabled={isSubmitting}
-              onClick={submitForm}
-              style={{
-                backgroundColor: '#EBE8E4',
-                color: '#745B4F',
-                borderRadius: '1px',
-              }}
-            >
-              Subscribe
-            </Button>
+            <Grid container spacing={2} alignItems="center">
+              <Grid item xs={12}>
+                <Field
+                  component={TextField}
+                  name="email"
+                  type="email"
+                  label="Email"
+                  variant="standard"
+                  helperText={touched.email ? errors.email : ""}
+                  error={touched.email && Boolean(errors.email)}
+                  style={{
+                    backgroundColor: 'white',
+                    borderRadius: '5px',
+                  }}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <Button
+                  type="submit"
+                  variant="contained"
+                  disabled={isSubmitting}
+                  onClick={submitForm}
+                  style={{
+                    backgroundColor: '#EBE8E4',
+                    color: '#745B4F',
+                    borderRadius: '1px',
+                  }}
+                >
+                  Subscribe
+                </Button>
+              </Grid>
+            </Grid>
           </Box>
         )}
       </Formik>

@@ -32,7 +32,6 @@
     text-align: center; /* Center text */
     margin: 0 auto 2rem; /* Center cards horizontally and add space between cards */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to each card */
-    padding: 2rem; /* Padding inside each card */
 }
 
 /* Styles for images */

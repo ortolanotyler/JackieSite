@@ -13,6 +13,7 @@ const Vlogs = () => {
       
       {/* Use an <a> tag for navigation */}
         <div>
+        <SubscribeButton/>
           <VlogVideo/>
           <SubscribeButton/>
         </div>
@@ -24,4 +25,6 @@ const Vlogs = () => {
 };
 
 export default Vlogs;
+
+
 

@@ -1,5 +1,7 @@
 /* MeetJackieHero.module.css */
 .hero {
+  margin-top: 1em !important;
+  font-family: 'GFS Didot', sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -28,7 +30,7 @@
 /* MeetJackieHero.module.css */
 .heroTextLink {
   display: inline-block;
-  margin-top: 2px;
+  margin-top: 1em;
   padding: 8px 16px;
   background-color: #745B4F; /* Change background color to yellow */
   color: #fff;
@@ -38,7 +40,7 @@
 }
 
 .heroTextLink:hover {
-  background-color: #ffa000; /* Change hover color to a darker shade of yellow */
+  background-color: #745B4F; /* Change hover color to a darker shade of */
 }
 
 .heroImagePrimary {
